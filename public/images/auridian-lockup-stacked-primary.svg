@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+  <rect width="1200" height="820" fill="#0B1C2D"/>
+  <defs>
+    <style>
+      .wordmark {
+        font-family: "Playfair Display", "Cormorant Garamond", "Libre Baskerville", "Times New Roman", serif;
+        font-weight: 500;
+        letter-spacing: 0.20em;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(360,90) scale(4.0)">
+    <g fill="none" stroke="#C7A348" stroke-linecap="butt" stroke-linejoin="miter">
+      <line x1="23" y1="86" x2="45.5" y2="21" stroke-width="3.6"/>
+      <line x1="77" y1="86" x2="54.5" y2="21" stroke-width="3.6"/>
+      <line x1="45.5" y1="21" x2="54.5" y2="21" stroke-width="3.1"/>
+      <line x1="40" y1="55" x2="60" y2="55" stroke-width="1.9"/>
+    </g>
+  </g>
+
+  <text x="600" y="700" text-anchor="middle" class="wordmark" font-size="148" fill="#FFFFFF">AURIDIAN</text>
+</svg>
