@@ -1,10 +1,16 @@
-export default function CalorieAppPlaceholder() {
+export default function ChessPage() {
   return (
-    <main className="container" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
-      <h1>Chess</h1>
-      <p style={{ marginTop: "1rem", color: "var(--muted)", lineHeight: 1.6 }}>
-        Placeholder. Build the first version here.
-      </p>
+    <main style={{ width: '100%', height: '100vh', overflow: 'hidden' }}>
+      <iframe
+        src="/chess_10.html"
+        style={{
+          width: '100%',
+          height: '100%',
+          border: 'none',
+          display: 'block',
+        }}
+        title="Chess"
+      />
     </main>
   );
 }
